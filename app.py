@@ -1,17 +1,4 @@
-import shutil
-import requests
-import os
 
-API_KEY = 
-SIGNATURE = 
-SIZE = "640x640"
-URL = 'https://maps.googleapis.com/maps/api/streetview?&size=' + SIZE
-SAVE_LOC = "downloads"
-TYPE = ".jpeg"
-WARNING = '\033[93m'
-GREEN = "\033[92m"
-UNIMPORTANT = '\033[95m'
-BLUE = '\033[94m'
 
 if not os.path.exists(SAVE_LOC):
     os.makedirs(SAVE_LOC)
